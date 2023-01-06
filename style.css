@@ -5,7 +5,7 @@
     padding: 0;
 }
 
-body{
+main{
     background-color: rgb(128, 128, 118);
     min-height: 100vh;
     display: flex;
@@ -87,13 +87,29 @@ body{
     font-weight: 600;
 }
 
-a:hover{
-    color: aquamarine;
-    text-decoration: underline;
-}
 
 /*Animação*/
 
 .card:hover{
     transform: scale3d(1.1, 1.1, 1);
+}
+
+footer{
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+
+footer a{
+    text-decoration: none;
+}
+
+
+a:hover{
+    color: aquamarine;
+    text-decoration: underline;
 }

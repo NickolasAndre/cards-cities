@@ -8,6 +8,7 @@
 
 body{
     overflow-x: hidden;
+   
 }
 
 main{
@@ -116,19 +117,8 @@ main{
     transform: scale3d(1.1, 1.1, 1);
 }
 
-.card .card_fav {
-    position: absolute;
-    transition: 1s;
-    right: -100%;
-    top: 1em;
-    font-size: 1.8em;
-    color: rgb(206, 30, 30);
-}
 
 
-.card:hover .card_fav{
-    right: .5em;
-}
 
 .card-body .card_content--rating{
     color: gold;
@@ -136,21 +126,13 @@ main{
     position: absolute;
     transition: .7s;
     left: -100%;
-    
-    /*transition: 1s;
-    position: absolute;
-    top: 11em;
-    right:  6.1em;*/
-    
+
 }
 
 .card:hover .card_content--rating{
     left: 35%;
     
-
-    
 }
-
 
 footer{
     text-align: center;
@@ -171,3 +153,4 @@ a:hover{
     color: aquamarine;
     text-decoration: underline;
 }
+
